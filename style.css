@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: "Alice", serif;
+  color: #573a37;
+}
+
+#page {
+  width: 800px;
+  box-sizing: border-box;
+  padding: 24px;
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  margin: 48px auto;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+img {
+  border-radius: 16px;
+  height: 400px;
+}
+
+main {
+  padding: 24px;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -5,52 +40,21 @@ body {
   background-size: cover;
 }
 
-.content-box {
-  margin: 48px 240px;
-  background-color: #f0e8c2;
-  position: absolute;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
-}
-
-.content-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.list-without-bullets {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  border-radius: 16px;
-  height: 400px;
-  width: fit-content;
-}
-
-p,
-li {
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-}
-
 h1 {
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: bold;
   font-size: 40px;
+  line-height: 140%;
 }
 
 h2 {
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: bold;
   font-size: 24px;
+}
+h1,
+h2 {
+  color: #291b1a;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul {
+  padding-left: 24px;
 }
